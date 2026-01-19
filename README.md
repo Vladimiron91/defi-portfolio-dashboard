@@ -1,4 +1,5 @@
 # DeFi Portfolio Dashboard
+### Update: Day 1
 
 Учебный проект для отслеживания балансов в блокчейне Ethereum с использованием FastAPI и Web3.py.
 ---
@@ -19,6 +20,7 @@
 
 
 ----------------------------------------------------------------------------------------------------
+
 Step-by-step instructions that I have already managed to implement: 
 Постепенная инструкция что я уже успел реализовать:
 Schrittweise Anleitung, die ich bereits umgesetzt habe:
@@ -46,3 +48,19 @@ Schrittweise Anleitung, die ich bereits umgesetzt habe:
 3. **Sicherheit:** Umgebungsvariablen für API-Keys über `.env` implementiert.
 4. **Web3-Integration:** Verbindung zu Ethereum über MetaMask Developer (Infura) RPC hergestellt.
 5. **Funktionen:** Endpunkt `/balance/{address}` erstellt, um Echtzeitdaten abzurufen (ETH-Guthaben & aktuelle Blocknummer).
+-----------------------------------------------------------------------------------------------------
+
+### Update: Day 2
+- Fixed Ethereum address validation logic.
+- Added support for ERC-20 tokens (e.g., USDT).
+- Integrated Smart Contract ABI interaction using Web3.py.
+
+### Обновление: День 2
+- Исправлена логика проверки адресов Ethereum.
+- Добавлена поддержка токенов ERC-20 (например, USDT).
+- Интегрировано взаимодействие со смарт-контрактами ABI с помощью Web3.py.
+
+### Update: Tag 2
+- Die Validierungslogik für Ethereum-Adressen wurde korrigiert.
+- Unterstützung für ERC-20-Token (z. B. USDT) wurde hinzugefügt.
+- Die Smart-Contract-ABI-Interaktion wurde mithilfe von Web3.py integriert.
